@@ -4,8 +4,11 @@ import { products } from "../constants";
 // popular products
 const PopularProducts = () => {
   return (
-    <section id="products" className="max-container max-sm:mt-12">
-      {/* products left */}
+    <section
+      id="products"
+      className="max-container max-sm:mt-12 flex flex-col justify-center items-center"
+    >
+      {/* products top */}
       <div className="flex flex-col justify-start gap-5">
         {/* title */}
         <h2 className="text-4xl font-palanquin font-bold">
@@ -18,8 +21,8 @@ const PopularProducts = () => {
         </p>
       </div>
 
-      {/* products right */}
-      <div className="mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-6 gap-14">
+      {/* products bottom */}
+      <div className="mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-6 gap-14 items-center">
         {/* map over each product */}
         {products.map((product) => (
           <PopularProductCard key={product.name} {...product} />
