@@ -1,6 +1,7 @@
 import { headerLogo } from "../assets/images";
-import { hamburger } from "../assets/icons";
+import { github, hamburger } from "../assets/icons";
 import { navLinks } from "../constants";
+import Button from "./Button";
 
 const Nav = () => {
   return (
@@ -23,9 +24,13 @@ const Nav = () => {
           ))}
         </ul>
         <div className="flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24">
-          <a href="/">Sign in</a>
-          <span>/</span>
-          <a href="/">Explore now</a>
+          <a
+            href="https://github.com/sanidhyy/nike"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <Button label="Source Code" iconURL={github} />
+          </a>
         </div>
 
         <div className="hidden max-lg:block cursor-pointer">

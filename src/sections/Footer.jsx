@@ -21,6 +21,9 @@ const Footer = () => {
               <a
                 className="flex justify-center items-center w-12 h-12 bg-white rounded-full"
                 href={icon.link}
+                target="_blank"
+                rel="noreferrer noopener"
+                title={icon.alt}
               >
                 <img src={icon.src} alt={icon.alt} width={24} height={24} />
               </a>
@@ -35,10 +38,11 @@ const Footer = () => {
                 {section.title}
               </h4>
 
-              <ul className="">
+              <ul>
                 {section.links.map((link) => (
                   <li
                     key={link.name}
+                    title={link.name}
                     className="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray"
                   >
                     <a href={link.link}>{link.name}</a>
