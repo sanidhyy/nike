@@ -1,3 +1,6 @@
+// Export new icons here to use it anywhere else
+// Don't remove anything from here
+
 import arrowRight from "./arrow-right.svg";
 import chevronLeft from "./chevron-left.svg";
 import cheveronRight from "./chevron-right.svg";
