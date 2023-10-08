@@ -3,13 +3,13 @@
 ![Nike Clone Website using React JS + Vite](/.github/images/img_main.png "Nike Clone Website using React JS + Vite")
 
 [![Ask Me Anything!](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/sanidhyy "Ask Me Anything!")
-[![GitHub license](https://img.shields.io/github/license/sanidhyy/vite)](https://github.com/sanidhyy/vite/blob/main/LICENSE.md "GitHub license")
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/sanidhyy/vite/commits/main "Maintenance")
-[![GitHub branches](https://badgen.net/github/branches/sanidhyy/vite)](https://github.com/sanidhyy/vite/branches "GitHub branches")
-[![Github commits](https://badgen.net/github/commits/sanidhyy/vite/main)](https://github.com/sanidhyy/vite/commits "Github commits")
+[![GitHub license](https://img.shields.io/github/license/sanidhyy/nike)](https://github.com/sanidhyy/nike/blob/main/LICENSE.md "GitHub license")
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/sanidhyy/nike/commits/main "Maintenance")
+[![GitHub branches](https://badgen.net/github/branches/sanidhyy/nike)](https://github.com/sanidhyy/nike/branches "GitHub branches")
+[![Github commits](https://badgen.net/github/commits/sanidhyy/nike/main)](https://github.com/sanidhyy/nike/commits "Github commits")
 [![Vercel status](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nikeee.vercel.app/ "Vercel status")
-[![GitHub issues](https://img.shields.io/github/issues/sanidhyy/vite)](https://github.com/sanidhyy/vite/issues "GitHub issues")
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/sanidhyy/vite)](https://github.com/sanidhyy/vite/pulls "GitHub pull requests")
+[![GitHub issues](https://img.shields.io/github/issues/sanidhyy/nike)](https://github.com/sanidhyy/nike/issues "GitHub issues")
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/sanidhyy/nike)](https://github.com/sanidhyy/nike/pulls "GitHub pull requests")
 
 ## ⚠️ Before you start
 
