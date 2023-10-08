@@ -24,6 +24,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer noopener"
                 title={icon.alt}
+                key={icon.alt}
               >
                 <img src={icon.src} alt={icon.alt} width={24} height={24} />
               </a>
