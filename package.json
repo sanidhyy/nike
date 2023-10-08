@@ -1,8 +1,26 @@
 {
   "name": "nike",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.1",
   "type": "module",
+  "license": "MIT",
+  "author": "Sanidhya Kr. Verma",
+  "description": "Discover stylish Nike arrivals, quality comfort, and innovation for your active life",
+  "keywords": [
+    "reactjs",
+    "react",
+    "vite",
+    "vitejs",
+    "shoes",
+    "nike",
+    "nike-showcase",
+    "modern-ui/ux",
+    "tailwindcss",
+    "js",
+    "javascript",
+    "html",
+    "css"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
