@@ -5,16 +5,20 @@ import { github, hamburger } from "../assets/icons";
 import { navLinks } from "../constants";
 import Button from "./Button";
 
+// Nav
 const Nav = () => {
+  // is nav menu (mobile) open
   const [isMenu, setIsMenu] = useState(false);
 
   return (
     <header className="padding-x py-8 absolute z-10 w-full">
       <nav className="flex justify-between items-center max-container">
+        {/* header brand logo */}
         <a href="/">
           <img src={headerLogo} alt="logo" width={130} height={29} />
         </a>
 
+        {/* nav links */}
         <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
           {navLinks.map((item) => (
             <li key={item.label}>
@@ -27,6 +31,8 @@ const Nav = () => {
             </li>
           ))}
         </ul>
+
+        {/* source code */}
         <div className="flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24">
           <a
             href="https://github.com/sanidhyy/nike"
@@ -37,6 +43,7 @@ const Nav = () => {
           </a>
         </div>
 
+        {/* mobile menu */}
         <button
           type="button"
           className="hidden max-lg:block cursor-pointer"
@@ -50,9 +57,11 @@ const Nav = () => {
           <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
           <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
             <div class="flex items-center mb-8">
+              {/* header brand logo (mobile) */}
               <a class="mr-auto text-3xl font-bold leading-none" href="/">
                 <img src={headerLogo} alt="logo" width={90} height={20} />
               </a>
+              {/* close navbar btn */}
               <button class="navbar-close" onClick={() => setIsMenu(false)}>
                 <svg
                   class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
@@ -70,20 +79,20 @@ const Nav = () => {
                 </svg>
               </button>
             </div>
-            <div>
-              <ul>
-                {navLinks.map((item) => (
-                  <li key={`sm-${item.label}`} className="mb-1">
-                    <a
-                      href={item.href}
-                      className="block p-4 hover:bg-slate-50 hover:text-coral-red font-montserrat leading-normal text-md text-slate-gray rounded"
-                    >
-                      {item.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            {/* navbar links (mobile) */}
+            <ul>
+              {navLinks.map((item) => (
+                <li key={`sm-${item.label}`} className="mb-1">
+                  <a
+                    href={item.href}
+                    className="block p-4 hover:bg-slate-50 hover:text-coral-red font-montserrat leading-normal text-md text-slate-gray rounded"
+                  >
+                    {item.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+            {/* source code */}
             <div class="mt-auto pt-6">
               <a
                 href="https://github.com/sanidhyy/nike"

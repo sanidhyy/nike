@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
 
+/* apply tailwind css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* reset css */
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +14,7 @@
   scroll-behavior: smooth;
 }
 
+/* custom components */
 @layer components {
   .max-container {
     max-width: 1440px;
@@ -23,6 +26,7 @@
   }
 }
 
+/* custom utilities */
 @layer utilities {
   .padding {
     @apply sm:px-16 px-8 sm:py-24 py-12;

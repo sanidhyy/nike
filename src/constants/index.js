@@ -1,3 +1,7 @@
+// Export new constants here to use it anywhere else
+// Don't remove anything from here
+
+// icons
 import {
   facebook,
   instagram,
@@ -6,6 +10,8 @@ import {
   truckFast,
   twitter,
 } from "../assets/icons";
+
+// images
 import {
   bigShoe1,
   bigShoe2,
@@ -21,6 +27,7 @@ import {
   thumbnailShoe3,
 } from "../assets/images";
 
+// navbar links
 export const navLinks = [
   { href: "#home", label: "Home" },
   { href: "#about-us", label: "About Us" },
@@ -28,6 +35,7 @@ export const navLinks = [
   { href: "#contact-us", label: "Contact Us" },
 ];
 
+// shoe collection
 export const shoes = [
   {
     thumbnail: thumbnailShoe1,
@@ -43,12 +51,14 @@ export const shoes = [
   },
 ];
 
+// brand statistics
 export const statistics = [
   { value: "1k+", label: "Brands" },
   { value: "500+", label: "Shops" },
   { value: "250k+", label: "Customers" },
 ];
 
+// brand products
 export const products = [
   {
     imgURL: shoe4,
@@ -76,6 +86,7 @@ export const products = [
   },
 ];
 
+// brand services
 export const services = [
   {
     imgURL: truckFast,
@@ -95,6 +106,7 @@ export const services = [
   },
 ];
 
+// customer reviews
 export const reviews = [
   {
     imgURL: customer1,
@@ -112,6 +124,7 @@ export const reviews = [
   },
 ];
 
+// footer links
 export const footerLinks = [
   {
     title: "Products",
