@@ -28,7 +28,7 @@ const Nav = () => {
           <a href="/">Explore now</a>
         </div>
 
-        <div className="hidden max-lg:block">
+        <div className="hidden max-lg:block cursor-pointer">
           <img src={hamburger} alt="hamburger" width={25} height={25} />
         </div>
       </nav>
