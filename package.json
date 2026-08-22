@@ -11,6 +11,7 @@
     "react",
     "vite",
     "vitejs",
+    "netlify",
     "shoes",
     "nike",
     "nike-showcase",
