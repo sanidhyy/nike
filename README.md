@@ -7,7 +7,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/sanidhyy/nike/commits/main "Maintenance")
 [![GitHub branches](https://badgen.net/github/branches/sanidhyy/nike)](https://github.com/sanidhyy/nike/branches "GitHub branches")
 [![Github commits](https://badgen.net/github/commits/sanidhyy/nike/main)](https://github.com/sanidhyy/nike/commits "Github commits")
-[![Vercel status](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nikeee.vercel.app/ "Vercel status")
+[![Netlify Status](https://api.netlify.com/api/v1/badges/798300e2-fe3a-488d-9b99-96458bbe1e30/deploy-status)](https://nikee-app.netlify.app "Netlify Status")
 [![GitHub issues](https://img.shields.io/github/issues/sanidhyy/nike)](https://github.com/sanidhyy/nike/issues "GitHub issues")
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/sanidhyy/nike)](https://github.com/sanidhyy/nike/pulls "GitHub pull requests")
 
@@ -15,8 +15,8 @@
 
 1. Make sure **Git** and **NodeJS** is installed
 2. Clone this repository to your local computer.
-3. Open terminal in root directory. Run `npm install` or `yarn install`.
-4. Now app is fully configured :+1: and you can start using this app using `npm run dev` or `yarn run dev`.
+3. Open terminal in root directory. Run `npm install` or `pnpm install`.
+4. Now app is fully configured :+1: and you can start using this app using `npm run dev` or `pnpm dev`.
 
 **NOTE:** This app was created with [Vite](https://vitejs.dev/ "Vite")
 
